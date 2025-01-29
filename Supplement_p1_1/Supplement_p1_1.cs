@@ -2,6 +2,14 @@
 
 public class Supplement_p1_1
 {
+    /// <summary>
+        /// Returns the are of a rectangle. If the length is equal to the width,
+        /// the calculation is done as length*length instead.
+        /// </summary>
+        /// <param name="length">Length of the rectangle.</param>
+        /// <param name="width">Width of the rectangle.</param>
+        /// <returns>Area of the rectangle.</returns>
+             
     public static double AreaOfRectangle(double length, double width){
         if (length == width) {
             return length * length;
