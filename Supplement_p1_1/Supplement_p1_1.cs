@@ -3,7 +3,12 @@
 public class Supplement_p1_1
 {
     public static double AreaOfRectangle(double length, double width){
-        return length * width;
+        if (length == width) {
+            return length * length;
+        } else {
+            return length * width;
+        }
+        
     }
 
     public static double AreaOfCircle(double radius){
