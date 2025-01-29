@@ -3,8 +3,8 @@
 public class UnitTest1
 {
     [Fact]
-    public void Test1()
+    public void ShouldCalculateAreaOfRectangleWithDifferentLengthAndWidth()
     {
-
+        Assert.True(50.0 == Supplement_p1_1.AreaOfRectangle(5.0,10.0));
     }
 }
